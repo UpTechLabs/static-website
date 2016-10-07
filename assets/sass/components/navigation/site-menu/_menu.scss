@@ -1,0 +1,11 @@
+.sitenav__menu {
+  margin: 0 auto;
+  padding: 0 10px;
+  list-style: none;
+  float: right;
+  text-align: right;
+
+  @media screen and (min-width: 900px) {
+    padding: 0 40px;
+  }
+}

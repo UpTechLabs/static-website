@@ -1,0 +1,90 @@
+//
+// Colors
+//======================
+
+$nonWhite--color: #e8e8e8;
+
+$olive: #403B10;
+$neon: #00b624;
+$green: #627f00;
+$darkGreen: #2E374D; // darker version of green
+$black: #191919; //#010204; // text color
+
+$darkBlue: #1b202d; // heading color
+$darkBlue1: #2E374D; // lighter version of the dark blue
+
+$blue: #1c202c;
+$blueTint: #5f616d;
+$blueShade: #131521;
+$bluePastel: #d1d2d6;
+
+$white: #fff;
+$orange: #cb4b14;
+$orangeLight: #cc4b14;
+
+$gray--lightest: #ccc;
+$gray--lighter: #eee;
+$gray--light: #ddd;
+$gray--medium: #777;
+$gray: #333;
+
+$red: #FF4614;
+$yellow: #ffc40d;
+
+$tan: #bda275;
+
+// Section background colors:
+$introColor: $black;
+$knowthecodeColor: #1b202d;
+$wpdcColor: #272D40;
+$blogColor: $black;
+$aboutColor: $olive;
+$levelUpColor: $green;
+$helloLifeColor: $yellow;
+
+//
+// Color Configuration
+//===========================
+
+$link--color: $orange;
+$link--hover-color: $gray;
+
+// Elements
+$base__color: $black;
+$body--background-color: $nonWhite--color;
+
+// Form Elements
+$input--background-color: $white;
+$input--border-color: $gray--light;
+$input--color: $gray;
+$input--focus-border-color: $gray--light;
+$button--background-color: $gray;
+$button--color: $white;
+$button--hover-background-color: $red;
+$button--hover-color: $white;
+$button--disabled-background-color: $gray--lighter;
+$button--disable-color: $gray--medium;
+
+//
+// Header
+//======================
+$siteHeader--background-color: transparent;
+$siteTitle--link-color: $darkBlue;
+$siteLogo--background-color: transparent;
+
+//
+// Navigation
+//============================
+$nav--link-color: $gray;
+$nav--hover-color: $red;
+
+$siteNav--background-color: transparent;
+$siteNav--border-color: $darkBlue;
+$siteNav--link-color: $darkBlue;
+$siteNav--hover-color: $nonWhite--color;
+
+//
+// Footer
+//============================
+$siteFooter--background-color: $darkBlue;
+$siteFooter--border-color: transparent;

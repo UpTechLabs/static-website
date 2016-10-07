@@ -1,0 +1,22 @@
+.intro {
+  margin: 30px 0;
+  border-left: 7px solid $orange;
+  padding-left: 15px;
+  font-size: 120%;
+
+  &.green {
+    border-color: $green;
+  }
+
+  &.yellow {
+    border-color: $yellow;
+  }
+
+  &.tan {
+    border-color: $tan;
+  }
+
+  &.blue {
+    border-color: $darkBlue;
+  }
+}

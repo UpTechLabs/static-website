@@ -1,0 +1,19 @@
+//
+// Repeating pattern Elliots
+//===============================
+
+.elliot-robot {
+  background: linear-gradient( rgba(98,127,0,0.8) 100%, $green),
+              url(#{$imagePath}/UpTech-Robot-Dark.png) $green;
+}
+
+.elliot-robot--alternate {
+  background: linear-gradient( rgba(27,32,45,0.4) 100%, $darkBlue),
+          url(#{$imagePath}/UpTech-Robot-DarkBlue.png) $darkBlue;
+}
+
+.elliot-robot, .elliot-robot--alternate {
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  background-position: 95% 0%;
+}

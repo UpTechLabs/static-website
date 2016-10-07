@@ -1,0 +1,13 @@
+.about__overview {
+  background: linear-gradient(
+              rgba(189,162,117,0.2) 100%, $tan),
+              url(#{$imagePath}/overview-bg3-800x533.jpg) center no-repeat transparent;
+  background-size: cover;
+
+  @media screen and (min-width: 800px) and (max-width: 1279px) {
+    background: linear-gradient(
+                  rgba(189,162,117,0.2) 100%, $tan),
+                  url(#{$imagePath}/overview-bg3.jpg) center no-repeat transparent;
+    background-size: cover;
+  }
+}

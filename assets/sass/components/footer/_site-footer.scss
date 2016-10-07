@@ -1,0 +1,45 @@
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site__footer {
+  position: relative;
+  background: url( #{$imagePath}/UpTech-Robot-DarkBlue.png ) $darkBlue;
+  background-repeat: no-repeat;
+  background-size: 20%,100%;
+  background-position: right top,center;
+  min-height: 400px;
+  //@include rem( font-size, 16px );
+
+  margin: 0;
+  color: $white;
+
+  a, .fa {
+    color: $nonWhite--color;
+
+    &:hover, &:focus {
+      color: $orange;
+    }
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .wrap {
+    padding: 40px 0 0;
+  }
+
+  .copyright {
+    @include rem( font-size, 16px );
+  }
+
+  .disclaimer {
+    color: #dcdcdc;
+    @include rem( font-size, 14px );
+    font-weight: 200;
+  }
+}
+
+.footer_widget {
+  margin-bottom: 40px;
+}

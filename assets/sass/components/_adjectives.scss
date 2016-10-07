@@ -1,0 +1,61 @@
+
+
+.adjectives {
+  list-style-type: none;
+  margin: 40px auto 80px;
+}
+
+.adjectives__item {
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  height: 125px;
+  width: 125px;
+  line-height: 115px;
+  padding: 10px;
+  color: $blue;
+  @include rem( font-size, 14px);
+
+  @media screen and (min-width: 767px) and (max-width: 1024px) {
+    @include rem( font-size, 16px);
+  }
+
+  @media screen and (min-width: 1025px) {
+    @include rem( font-size, 18px);
+  }
+
+  &.blue, &.olive {
+    color: $white;
+  }
+
+  &.white {
+    background-color: $white;
+  }
+  &.gray {
+    background-color: $gray;
+  }
+  &.yellow {
+    background-color: $yellow;
+  }
+  &.yellow-light {
+    background-color: lighten($yellow, 10%);
+  }
+  &.orange {
+    background-color: $orange;
+  }
+  &.orange-light {
+    background-color: $orangeLight;
+  }
+  &.blue {
+    background-color: $blue;
+  }
+  &.olive {
+    background-color: $olive;
+  }
+  &.green {
+    background-color: $green;
+  }
+  &.red {
+    background-color: $red;
+  }
+}

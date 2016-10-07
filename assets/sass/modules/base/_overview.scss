@@ -1,0 +1,72 @@
+.overview__container, .overview__container--alternate {
+  position: relative;
+
+  h1 {
+    color: $white;
+  }
+}
+.overview__container {
+  background: url(#{$imagePath}/UpTech-Robot-Dark.png) $green;
+
+  h2, h3 {
+    color: $darkBlue;
+  }
+
+  .button {
+    background-color: $darkBlue;
+    color: $white;
+
+    &:hover, &:focus {
+      background-color: $white;
+      color: $darkBlue;
+    }
+  }
+}
+
+.overview__container--alternate {
+  background: url( #{$imagePath}/UpTech-Robot-DarkBlue.png ) $darkBlue;
+  background-repeat: repeat;
+  background-size: 40%, 100%;
+  background-position: 95% 0%;
+
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    background-repeat: no-repeat;
+    background-position: 95% 20%;
+  };
+
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    background-position: 95% 50%;
+  }
+
+  h2, h3 {
+    color: $white;
+  }
+
+  .button {
+    background-color: $white;
+    color: $darkBlue;
+
+    &:hover, &:focus {
+      background-color: $darkBlue;
+      color: $white;
+    }
+  }
+}
+
+.overview__container, .overview__container--alternate {
+  background-repeat: repeat;
+  background-size: 40%, 100%;
+  background-position: 95% 20%;
+
+  @media screen and (min-width: 600px) {
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    background-position: 95% 20%;
+  };
+
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
+    background-position: 95% 50%;
+  }
+}

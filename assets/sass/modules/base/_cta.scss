@@ -1,0 +1,25 @@
+.section__calltoaction {
+  position: relative;
+
+  .wrap {
+    padding: 40px 0;
+
+    text-align: center;
+  }
+
+  &.darkblue {
+    background-color: $darkBlue;
+
+    h2,h3,h4,p {
+      color: $white;
+    }
+  }
+}
+
+.section__calltoaction {
+  background-color: $green;
+}
+
+.cta__bemoreawesome {
+  background-color: $green;
+}

@@ -1,0 +1,32 @@
+//
+// Grid
+//====================================
+
+.grid__container {
+  overflow: hidden;
+  width: 100%;
+  @media screen and (min-width: 800px) {
+    @include display(flex);
+    @include flex-wrap(wrap);
+  }
+}
+
+.grid__block {
+  margin-left: 0;
+  margin-bottom: 50px;
+
+  // 2 columns
+  @media screen and (min-width: 800px) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  .three-columns & {
+    // 3 columns
+    @media screen and (min-width: 1025px) {
+      @include omega-reset(2n);
+      @include span-columns(4);
+      @include omega(3n);
+    }
+  }
+}

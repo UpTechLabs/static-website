@@ -1,0 +1,10 @@
+.section__content {
+  ul, ol {
+    margin: 30px 40px;
+
+
+    &.nobullets li {
+      list-style-type: none;
+    }
+  }
+}

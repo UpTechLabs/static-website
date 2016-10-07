@@ -1,0 +1,24 @@
+//$use-flash: true;
+//$use-bounceInUp: true;
+//$use-fadeIn: true;
+//$use-fadeOut: true;
+//$user-slideInUp: true;
+//$use-slideInRight: true;
+//$use-slideOutLeft: true;
+//$use-slideOutRight: true;
+
+// Config
+$imagePath: '../../images';
+
+// Base stuff
+@import "bourbon";
+@import "neat";
+@import "../../node_modules/sass-rem/rem";
+
+@import "utilities/index";
+@import "base/index";
+
+@import "layouts/index";
+
+@import "components/index";
+@import "modules/index";

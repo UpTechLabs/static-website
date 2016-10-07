@@ -1,0 +1,33 @@
+.block__container {
+  clear: both;
+  margin-bottom: 80px;
+  overflow: hidden;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+
+    .block__item {
+      &--left, &--right {
+        width: 48%;
+        margin-bottom: 40px;
+      }
+      &--left {
+        float: left;
+        margin-right: 1.9%
+      }
+
+      &--right {
+        float: right;
+      }
+    }
+  }
+}
+
+.feature__image {
+  width: 100%;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}

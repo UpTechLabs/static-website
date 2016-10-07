@@ -1,0 +1,9 @@
+.site__menu {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 900px) {
+    height: 50px;
+  }
+}

@@ -1,0 +1,48 @@
+.sitenav__item {
+  display: none;
+
+  list-style-type: none;
+
+  line-height: 50px;
+  padding-left: 10px;
+
+  @include rem( font-size, 18px );
+  &.twitter {
+    @include rem( font-size, 20px );
+    display: inline-block;
+  }
+
+  @media screen and (min-width: 640px) {
+    display: inline-block;
+  }
+
+  @media screen and (min-width: 900px) {
+    display: inline-block;
+    line-height: 70px;
+
+    @include rem( font-size, 20px );
+    &.twitter {
+      @include rem( font-size, 26px );
+    }
+  }
+
+  a {
+    color: $siteNav--link-color;
+    border-bottom: none;
+
+    &:hover, &:focus {
+      color: $siteNav--hover-color;
+    }
+
+  }
+
+  &.active a {
+    color: $siteNav--hover-color;
+  }
+}
+
+.site__header.sticky {
+  .sitenav__item.active a {
+    color: $yellow;
+  }
+}

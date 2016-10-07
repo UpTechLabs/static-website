@@ -1,0 +1,22 @@
+.team__bio {
+  float: left;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: $nonWhite--color;
+  border: 1px solid $darkBlue;
+
+  h3.member__name, & {
+    color: $darkBlue;
+  }
+
+  a {
+    border-bottom: none;
+    margin-right: 20px;
+    color: $darkBlue;
+
+    &:hover, &:focus {
+      color: $orange;
+    }
+  }
+}

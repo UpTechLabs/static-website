@@ -1,0 +1,85 @@
+.home--what {
+  background-image: url(#{$imagePath}/sustainable-growth-bk-small.jpg);
+  background-repeat: no-repeat;
+  background-color: $nonWhite--color;
+  background-size: cover;
+  background-position: 50% 100%;
+
+  min-height: 500px;
+
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    background-position: 0% 90%;
+    min-height: 600px;
+  }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    background-image: url(#{$imagePath}/sustainable-growth-bk-800x567.jpg);
+    background-repeat: no-repeat;
+    background-color: $nonWhite--color;
+    background-size: cover;
+    background-position: 25% 100%;
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1279px) {
+    background-position: 10% 100%;
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1599px) {
+    min-height: 700px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url(#{$imagePath}/sustainable-growth-bk.jpg);
+    background-repeat: no-repeat;
+    background-color: $nonWhite--color;
+    background-size: cover;
+    background-position: 0% 100%;
+  }
+
+  @media screen and (min-width: 1600px) {
+    min-height: 930px;
+  }
+
+
+  .overview__hero {
+    margin-top: 0px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    h2, h3 {
+      background-color: rgba(255, 255, 255, .5);
+      padding: 2%;
+      padding-left: 0;
+    }
+
+    @media screen and (min-width: 1280px) {
+      h2 {
+        background-color: transparent;
+        padding: 0;
+      }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 1279px){
+      margin-top: 0px;
+      max-width: 400px;
+    }
+
+    @media screen and (min-width: 1280px) and (max-width: 1599px){
+      margin-top: 0px;
+      max-width: 500px;
+    }
+
+    @media screen and (min-width: 1600px) {
+      margin-top: 0px;
+      max-width: 570px;
+
+      h3 {
+        margin-top: 190px;
+        @include rem( font-size, 30px );
+      }
+    }
+  }
+}

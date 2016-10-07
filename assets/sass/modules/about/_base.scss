@@ -1,0 +1,24 @@
+body.about {
+  background-color: #f2f2f2;
+}
+
+.about--our-story {
+  background-color: $green;
+
+  .wrap {
+    min-height: 100px;
+  }
+
+  .intro {
+    border-color: $neon;
+    font-size: 150%;
+  }
+
+  a {
+    color: $darkBlue;
+
+    &:hover, &:focus {
+      color: $neon;
+    }
+  }
+}
